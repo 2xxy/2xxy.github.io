@@ -112,17 +112,17 @@
     <link href="http://2xxy.site/2016/04/15/%E4%BD%BF%E7%94%A8Hexo%E5%92%8CGithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://2xxy.site/2016/04/15/使用Hexo和Github搭建个人博客/</id>
     <published>2016-04-15T15:16:11.000Z</published>
-    <updated>2016-04-17T13:00:20.176Z</updated>
+    <updated>2016-04-17T15:39:30.189Z</updated>
     
     <content type="html">&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://git-scm.com/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;br&gt;Node.js新版默认把路径添加到环境变量Path中去了&lt;br&gt;其中Git的安装过程，建议PATH选项按下图选择：&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/Git-path-setting.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;安装完软件了，打开CMD命令行，执行下图的命令&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/node_git_version.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;OK，软件安装成功，没有成功的话，自己只能在来一遍了哦。&lt;/li&gt;
 &lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;p&gt;打开CMD窗口，安装Hexo&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-cli -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;等待……&lt;br&gt;cd到要建博客的本地目录(如:H:\Hexo\blog)&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;然后又是刷屏等待……&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/hexo_init.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;OK，安装成功，赶紧看看hexo博客的效果先&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;打开浏览器，输入:&lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000&lt;/a&gt; 如果显示出了正常的博客，就说明在本地大家成功了。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;注册Github账号&quot;&gt;&lt;a href=&quot;#注册Github账号&quot; class=&quot;headerlink&quot; title=&quot;注册Github账号&quot;&gt;&lt;/a&gt;注册Github账号&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github官网&lt;/a&gt;&lt;br&gt;点击右上角sign up（注册），如果已经有账号了，那就sign in。注册过程很简单，用户名、邮箱、密码即可。&lt;br&gt;然后前往自己刚才填写的邮箱，点开Github发送给你的注册确认信，确认注册，结束注册流程。一定要确认注册，否则无法使用gh-pages！&lt;/p&gt;
 &lt;p&gt;登陆之后，点击页面右上角的加号，选择New repository&lt;br&gt;填写信息&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/github_pages.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -167,10 +167,6 @@
 &lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://git-scm.com/download/&quot;&gt;Git&lt;/a&gt;&lt;br&gt;Node.js新版默认把路径添加到环境变量Path中去了&lt;br&gt;其中Git的安装过程，建议PATH选项按下图选择：&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/Git-path-setting.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;安装完软件了，打开CMD命令行，执行下图的命令&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/node_git_version.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;OK，软件安装成功，没有成功的话，自己只能在来一遍了哦。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;p&gt;打开CMD窗口，安装Hexo&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-cli -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;等待……&lt;br&gt;cd到要建博客的本地目录(如:H:\Hexo\blog)&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;然后又是刷屏等待……&lt;br&gt;&lt;img src=&quot;http://7xt12r.com2.z0.glb.clouddn.com/hexo_init.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;OK，安装成功，赶紧看看hexo博客的效果先&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;打开浏览器，输入:&lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; 如果显示出了正常的博客，就说明在本地大家成功了。&lt;/p&gt;
     
     </summary>
     
